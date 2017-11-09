@@ -1,0 +1,40 @@
+@font-face {
+    font-family: crosshatcher;
+    src: url(../assets/fonts/crosshatcher.otf);
+}   
+
+@font-face {
+    font-family: prociono;
+    src: url(../assets/fonts/ProcionoRegular.otf);
+} 
+
+body {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0%   {background-color:#fd5834; }
+    20%  {background-color:#fdbd34; }
+    40%  {background-color:#33e6ff; }
+    60%  {background-color:#33ffb2; }
+    80%  {background-color:#d9fd34; }
+    100% {background-color:#fd5834; }
+}
+
+.pagetitle{
+    font-size: 300%;
+    font-family: crosshatcher;
+    text-align: center;
+    color: white;
+}
+
+.txtqual{
+    font-size: 100%;
+    font-family: prociono;
+}
