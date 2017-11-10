@@ -1,11 +1,11 @@
 @font-face {
     font-family: crosshatcher;
-    src: url(../assets/fonts/crosshatcher.otf);
+    src: url(../../assets/fonts/crosshatcher.otf);
 }   
 
 @font-face {
     font-family: prociono;
-    src: url(../assets/fonts/ProcionoRegular.otf);
+    src: url(../../assets/fonts/ProcionoRegular.otf);
 } 
 
 body {
